@@ -1,0 +1,194 @@
+
+some beginner-level C language assignments designed for class 5 students:  
+
+
+
+ 1. Simple Addition Program  
+Write a program to add two numbers and display the result.  
+Hints:  
+- Use `int` variables for numbers.  
+- Use `printf` and `scanf` for input and output.
+
+
+---
+
+ 2. Even or Odd  
+Write a program that asks the user for a number and tells if it is even or odd.  
+Hints:  
+- Use the `%` operator to check for remainder.  
+
+---
+
+ 3. Find the Largest Number  
+Write a program that takes two numbers as input and prints the larger number.  
+Hints:  
+- Use `if-else` conditions.  
+
+---
+
+ 4. Display a Simple Message  
+Write a program to print:  
+```
+Hello, World!  
+I am learning C language.
+```
+
+---
+
+ 5. Multiplication Table  
+Write a program that prints the multiplication table of a number entered by the user.  
+Hints:  
+- Use a `for` loop.  
+
+---
+
+ 6. Sum of First N Numbers  
+Write a program to calculate the sum of the first N natural numbers. The user inputs N.  
+Hints:  
+- Use a `for` loop to add numbers.  
+
+---
+
+ 7. Basic Calculator  
+Write a program that performs addition, subtraction, multiplication, and division of two numbers entered by the user.  
+Hints:  
+- Use `+`, `-`, `*`, and `/` operators.  
+
+---
+
+ 8. Check Leap Year  
+Write a program to check if a year entered by the user is a leap year or not.  
+Hints:  
+- A year is a leap year if:
+  - Divisible by 4.
+  - Not divisible by 100 unless divisible by 400.  
+
+---
+
+ 9. Count to 10  
+Write a program to print numbers from 1 to 10.  
+Hints:  
+- Use a `for` loop or `while` loop.  
+
+---
+
+ 10. Area of a Rectangle  
+Write a program to calculate the area of a rectangle. The user enters the length and width.  
+Hints:  
+- Use the formula: `Area = length × width`.  
+
+Here are some slightly lengthier but easy assignments for class 5 students. These will help them understand the basics of C programming while working on more involved tasks.
+
+---
+
+ 1. Student Grade Calculator  
+Write a program to calculate the average marks of 5 subjects entered by the user and display the grade based on the average.  
+Hints:  
+- Take marks for 5 subjects as input.  
+- Calculate the average.  
+- Use conditions to assign grades:  
+  - `90-100`: Grade A  
+  - `75-89`: Grade B  
+  - `50-74`: Grade C  
+  - Below 50: Grade D  
+- Display the average and grade.
+
+---
+
+ 2. Simple ATM System  
+Write a program to simulate an ATM where the user can:  
+1. Check Balance  
+2. Deposit Money  
+3. Withdraw Money  
+4. Exit  
+Hints:  
+- Use a `do-while` loop to keep the program running until the user chooses to exit.  
+- Use conditions to perform operations like checking balance, adding money, and subtracting money for withdrawals.  
+- Start with a default balance (e.g., `1000`).  
+
+---
+
+ 3. Number Guessing Game  
+Write a program where the computer has a secret number (e.g., `7`), and the user has to guess it. The program gives hints like "Too High" or "Too Low" after each guess.  
+Hints:  
+- Use a `while` loop to keep asking for guesses until the user gets it right.  
+- Use conditions to compare the guessed number with the secret number.  
+
+---
+
+ 4. Simple Menu-Based Calculator  
+Create a program with a menu for the user to:  
+1. Add two numbers  
+2. Subtract two numbers  
+3. Multiply two numbers  
+4. Divide two numbers  
+5. Exit  
+Hints:  
+- Use a `do-while` loop to show the menu repeatedly until the user chooses to exit.  
+- Use `scanf` to take user input and `if-else` or `switch` statements for operations.  
+
+---
+
+ 5. Prime Number Checker  
+Write a program that asks the user to enter a number and checks if it is a prime number.  
+Hints:  
+- A number is prime if it is only divisible by 1 and itself.  
+- Use a `for` loop to check divisors from 2 to the square root of the number.  
+
+---
+
+ 6. Fibonacci Sequence  
+Write a program to generate the first N numbers in the Fibonacci sequence, where N is entered by the user.  
+Hints:  
+- Start with 0 and 1.  
+- Use a `for` loop to calculate the next numbers by adding the last two.  
+
+---
+
+ 7. Library Management System  
+Simulate a simple library system where:  
+1. Users can add books (limit 5 books).  
+2. View all books.  
+3. Borrow a book.  
+4. Return a book.  
+5. Exit.  
+Hints:  
+- Use an array to store book names.  
+- Use a menu with `switch` or `if-else` statements to perform operations.  
+- Track whether a book is borrowed using an additional array (e.g., 0 = available, 1 = borrowed).  
+
+---
+
+ 8. Temperature Converter  
+Write a program to convert temperatures:  
+1. Celsius to Fahrenheit  
+2. Fahrenheit to Celsius  
+Hints:  
+- Use formulas:  
+  - Fahrenheit = (Celsius × 9/5) + 32  
+  - Celsius = (Fahrenheit − 32) × 5/9  
+- Take the user's choice (1 or 2) and temperature as input.  
+- Use a menu-driven approach for user selection.  
+
+---
+
+ 9. Multiplication Table Generator  
+Write a program that generates multiplication tables for numbers from 1 to 10.  
+Hints:  
+- Use nested `for` loops:  
+  - Outer loop for numbers 1 to 10.  
+  - Inner loop for generating each table.  
+
+---
+
+ 10. Shopping Cart Program  
+Write a program to simulate a simple shopping cart system. Users can:  
+1. Add items to the cart (limit 5 items).  
+2. View items in the cart.  
+3. Calculate the total price.  
+4. Exit.  
+Hints:  
+- Use an array to store item names and their prices.  
+- Use a loop and menu for user operations.  
+
+
